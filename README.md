@@ -1,5 +1,7 @@
 # 327 Craft
 
+![327 Craft Screenshot](images/327craft1.png)
+
 This is project 2 for COM S 327. For this open ended assignment, I made a 2D Minecraft clone in the console, 327 Craft. Although this game is barebones compared to the real Minecraft, and only in 2D, it still has quite a few core features.
 
 This project uses CSV files to read data for the game. All files can be edited to change the looks and some functionality of the game. For instance, if the player wanted to add a new biome, such as a snowy, flat biome, they could do that without editing any code. New blocks, colors, and structures (like a building or tree) can all be added into the CSV files and will automatically be populated into the game without any code changes. The csv files are within the "data" folder.
@@ -12,10 +14,23 @@ Note: I did use the FastNoiseLite library for noise. Noise is wildly complicated
 
 * Randomly procedurally generated worlds, "infinite" in all directions.
 * 4 biomes.
+
+![](images/327craft4.png)
+
 * Trees, ores, clouds, and other structures spawned throughout the world.
+
+![](images/327craft3.png)
+
 * Destroy and place blocks.
-* God mode (flying)(mostly for testing).
+
+![](images/327craft5.png)
+![](images/327craft2.png)
+
 * Inventory viewing system.
+
+![](images/327craft6.png)
+
+* God mode (flying)(mostly for testing).
 
 ## How To Play
 
