@@ -1,0 +1,9 @@
+id,grass_id,soil_id,soil_depth,sand_id,snow_id,min_terrain_height,max_terrain_height,sand_level,snow_level,surface_structure_ids,underground_structure_ids,deep_underground_structure_ids, sky_structure_ids
+# green hills
+0,1,2,3,12,0,0,-24,1000,-26,[0|6],[1|2],[1|2|3|4],[5]
+# islands
+1,1,2,2,12,0,24,-24,-2,-26,[0],[1|2],[1|2|3|4],[5]
+# mountains
+2,1,2,2,0,13,0,-48,1000,-26,[6],[1|2|3],[1|2|3|4],[5]
+# oceans
+3,0,0,5,12,0,32,2,0,-20,[],[1|2],[1|2|3|4],[5]

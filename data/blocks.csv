@@ -1,0 +1,35 @@
+id,item_id,display,color_id,drop_item_id,drop_amount,collisions
+#air
+0,0, ,6,0,0,0
+#grass
+1,1,",3,2,1,1
+#dirt
+2,2,▒,4,2,1,1
+#stone
+3,3, ,2,3,1,1
+#oak log
+4,8,▒,5,9,4,0
+#plank
+5,9,=,5,9,1,1
+#oak leaves
+6,10,▓,7,11,1,0
+#coal ore
+7,4,⣿,2,4,4,1
+#iron ore
+8,5,%,12,5,3,1
+#gold ore
+9,6,8,11,6,2,1
+#diamond ore
+10,7,⁂,13,7,1,1
+#water
+11,0,▒,14,12,1,0
+#sand
+12,13,░,15,13,1,1
+#snow
+13,14,░,2,14,1,1
+#cloud
+14,0,O,6,0,0,0
+#pine log
+15,15,▓,5,9,4,0
+#pine leaves
+16,16,▒,16,11,1,0

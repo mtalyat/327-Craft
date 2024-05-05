@@ -1,0 +1,47 @@
+id,fg_color,bg_color
+#
+#   black = 0
+#   red = 1
+#   green = 2
+#   yellow = 3
+#   blue = 4
+#   magenta = 5
+#   cyan = 6
+#   white = 7
+#
+#   ALL COLOR IDS MOST BE IN ORDER FROM LOW TO HIGH.
+#   ID values can be skipped.
+#   Ex. 1, 2, 5, 7, 8...
+#
+#white fg, black bg (default)
+1,7,0
+#black fg, white bg (stone/snow)
+2,0,7
+#white fg, green bg (grass)
+3,7,2
+#yellow fg, red bg (dirt)
+4,1,0
+#red fg, yellow bg (oak log/pine log/planks)
+5,1,3
+#white fg, blue bg (air)
+6,7,4
+#green fg, blue bg (oak leaves)
+7,2,4
+#magenta fg, blue bg (player)
+8,5,4
+#yellow fg, black bg (selector)
+9,3,0
+#blue fg, cyan bg (water)
+10,4,6
+#yellow fg, white bg (gold)
+11,3,7
+#red fg, white bg (iron)
+12,1,7
+#cyan fg, white bg (diamond)
+13,6,7
+#blue fg, cyan bg (water)
+14,4,6
+#white fg, yellow bg (sand)
+15,7,3
+#green fg, black bg (pine leaves)
+16,2,0

@@ -1,0 +1,42 @@
+CHANGE LOG:
+
+05/05/22
+    Added support for multiple biomes.
+    Biomes now smoothly transition between one another.
+    Added holding shift to sprint in left/right directions.
+    Added a main menu, as well as buttons/events.
+    Added a pause menu.
+
+05/04/22
+    Redid the terrain generation to a "modification" system to allow for structures.
+    Structures can now spawn within the world.
+    Trees now spawn within the world.
+    Ores now spawn within the world.
+    Ores can be marked as deep underground ores, which will spawn 50 blocks below the surface (such as diamond and gold).
+    Player can now mine in diagonal directions.
+    Added ability to remove collisons from blocks (like leaves, water, trees- player can walk in them now).
+    Added "God Mode" by pressing 'G', for testing purposes. Allows player to move super fast and phase through walls.
+    Added biome datas, the game now uses biome data to generate the landscape (only 1 biome for now).
+
+05/03/22
+    Player can now build or break using the D-pad directions.
+
+05/02/22
+    Created CSV files for colors, blocks and items.
+    Created World, Chunk, Entity, Character, Player, Point, Sprite, Camera, BlockData and ItemData classes.
+    Changed SceneGame to have just one Chunk for testing.
+    Got the World to generate chunks as the player moves around.
+    Worlds are completely random and infinite.
+    The World will now use a heightmap to avoid regenerating noise data every time the player moves left/right.
+    Added ability for the world to be edited during runtime.
+    Entities now collide with the World.
+    Player can move around on the surface from left to right.
+
+04/22/22
+    Created Project.
+    Copied basic files from Poke project (MakeFile, Engine, Console, Object, Random, Scene)
+    Implemented GameObject.
+    Added the FastNoiseLite.h library to use with noise sampling.
+    Added a color managing system to Console.
+    Created SceneLoader to handle managing Scenes within the Engine.
+    Created EngineData so that can be passed around without causing #include loops.

@@ -1,0 +1,19 @@
+id,block_id,name,description
+# block_id is 0 if there is no corresponding block for the item
+0,0,ERROR,You should not be seeing this!
+1,1,Grass,Touch grass.
+2,2,Dirt,Seems dirty.
+3,3,Stone,As hard as a rock.
+4,7,Coal Ore,Santa said you've been naughty.
+5,8,Iron Ore,Tough stuff.
+6,9,Gold Ore,Shiny!
+7,10,Diamond Ore,Tougher stuff.
+8,4,Oak Log,Are you just happy to see me?
+9,5,Planks,We lost Ed Edd and Eddy!
+10,6,Oak Leaves,
+11,0,Stick,Brown and sticky.
+12,0,Bucket of Water,Careful- its wet!
+13,12,Sand,I hate sand.
+14,13,Snow,Its so... so cold.
+15,15,Pine Log,
+16,16,Pine Leaves,
